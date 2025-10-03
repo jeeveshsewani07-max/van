@@ -1,0 +1,15 @@
+{
+  "name": "van-healthcare-network",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static prototype for the Van Healthcare multi-branch hospital network website.",
+  "scripts": {
+    "start": "lite-server",
+    "serve": "lite-server"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
