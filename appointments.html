@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book an Appointment | Van Healthcare Network</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true">VH</span>
+          <span class="brand-title">Van Healthcare Network</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          &#9776;
+        </button>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="hospitals.html">Hospitals</a>
+          <a href="specialties.html">Specialties</a>
+          <a href="doctors.html">Doctors</a>
+          <a href="appointments.html" aria-current="page">Appointments</a>
+          <a href="patients.html">Patient Corner</a>
+        </nav>
+        <a class="cta-button" href="appointments.html">Book Appointment</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="badge">Book Care</p>
+          <h1>Schedule Your Appointment in Minutes</h1>
+          <p>
+            Choose your hospital, specialty, and preferred doctor. Receive instant
+            confirmation along with SMS and email alerts.
+          </p>
+        </div>
+        <div class="hero-stats">
+          <article class="stat-card">
+            <h3>24/7</h3>
+            <p>Online booking</p>
+          </article>
+          <article class="stat-card">
+            <h3>2 min</h3>
+            <p>Average booking time</p>
+          </article>
+          <article class="stat-card">
+            <h3>10+</h3>
+            <p>Supported languages</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="section-title">
+          <h2>Appointment Form</h2>
+          <p>Provide a few details and our coordinators will confirm your visit.</p>
+        </div>
+        <form class="grid grid-2">
+          <label>
+            <span>Full Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Mobile Number</span>
+            <input type="tel" name="phone" placeholder="Contact number" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            <span>Preferred Hospital</span>
+            <select name="hospital" required>
+              <option value="">Select Hospital</option>
+              <option value="van-city">Van City Medical Center</option>
+              <option value="riverside">Riverside Heart Institute</option>
+              <option value="summit">Summit Cancer Center</option>
+            </select>
+          </label>
+          <label>
+            <span>Specialty</span>
+            <select name="specialty" required>
+              <option value="">Select Specialty</option>
+              <option value="cardiology">Cardiology</option>
+              <option value="oncology">Oncology</option>
+              <option value="orthopaedics">Orthopaedics</option>
+              <option value="neurology">Neurology</option>
+            </select>
+          </label>
+          <label>
+            <span>Doctor (Optional)</span>
+            <input type="text" name="doctor" placeholder="Doctor name" />
+          </label>
+          <label>
+            <span>Appointment Date</span>
+            <input type="date" name="date" required />
+          </label>
+          <label>
+            <span>Preferred Time</span>
+            <input type="time" name="time" required />
+          </label>
+          <label class="grid-span">
+            <span>Reason for Visit</span>
+            <textarea name="notes" rows="4" placeholder="Briefly describe symptoms"></textarea>
+          </label>
+          <button class="cta-button" type="submit">Submit Request</button>
+        </form>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>What Happens Next?</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Instant Confirmation</h3>
+            <p>You receive a booking ID along with SMS and email confirmation.</p>
+          </article>
+          <article class="card">
+            <h3>Pre-Visit Guidance</h3>
+            <p>Our team shares instructions, documents required, and insurance support.</p>
+          </article>
+          <article class="card">
+            <h3>Easy Rescheduling</h3>
+            <p>Need to change plans? Reschedule online or call our coordinators anytime.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h3>Van Healthcare Network</h3>
+          <p>Delivering compassionate care with cutting-edge technology across our network of hospitals and specialty clinics.</p>
+        </div>
+        <div>
+          <h4>Key Links</h4>
+          <ul class="list">
+            <li><a href="appointments.html">Book Appointment</a></li>
+            <li><a href="doctors.html">Find a Doctor</a></li>
+            <li><a href="packages.html">Health Packages</a></li>
+            <li><a href="patients.html">Patient Corner</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="list">
+            <li>CareLine: +1 800 555 0100</li>
+            <li>Email: care@vanhealth.com</li>
+            <li>Emergency: +1 800 555 0111</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <ul class="list">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Van Healthcare Network. All rights reserved.</span>
+        <div class="footer-links">
+          <a href="legal.html">Privacy & Policies</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
